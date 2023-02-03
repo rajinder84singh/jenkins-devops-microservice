@@ -17,7 +17,7 @@ pipeline {
 			}			
 		}
 	} 
-	
+
 	post {
 		always {
 			echo 'I run always'
@@ -26,7 +26,7 @@ pipeline {
 			echo 'I run when you are successful'
 		}
 		failure {
-			echo 'I run when you fail'
+			echo 'I run when you failure'
 		}
 	}
 }
